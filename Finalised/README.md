@@ -8,8 +8,7 @@ This is a quick guide of how to get set up and running a robust real-time facial
 1. Make a directory of your name inside the Faces folder and upload your 2-3 pictures of you.
 2. Run ``` train_v2.py```.
 3. Then run ```detect.py``` for realtime face recognization.
-
-![Alt Text](MEDIA/gif.gif) <br>
+ <br>
 As the Facenet model was trained on older versions of TensorFlow, the architecture.py file is used to define the model's architecture on newer versions of TensorFlow so that the pre-trained model's weight can be loaded.<br>
 
  Dowload pre-trained weight from [Here.👈](https://drive.google.com/drive/folders/1scGoVCQp-cNwKTKOUqevCP1N2LlyXU3l?usp=sharing) <br>
