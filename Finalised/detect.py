@@ -60,7 +60,7 @@ def detect(img ,detector,encoder,encoding_dict):
             cv2.putText(img, name, pt_1, cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 1)
         else:
             cv2.rectangle(img, pt_1, pt_2, (0, 255, 0), 2)
-            cv2.putText(img, name , (pt_1[0], pt_1[1] - 5), cv2.FONT_HERSHEY_SIMPLEX, 1,
+            cv2.putText(img,  name + f'__{distance:.2f}' , (pt_1[0], pt_1[1] - 5), cv2.FONT_HERSHEY_SIMPLEX, 1,
                         (0, 200, 200), 2)
             if name not in d:
                 d.add(name)
